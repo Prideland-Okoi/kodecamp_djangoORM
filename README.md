@@ -2,10 +2,10 @@
 1. Craete a Django model for People, Address, Doctor, Product and Bio within any of your app.
 use an appropriate database relationship and create a relationship for the following models:
 ##
-People - Address
-People - Doctor
-People - Bio
-
+|People|Address|
+|People|Doctor|
+|People|Bio|
+##
 2. Within your project folder, create a new python file and save it as task7.py. Import the Product model to this file and illustrate the following with the use of Django ORM:
 i. Insert a new record into the Product Model
 ii. Get all the records in the product table
