@@ -2,6 +2,7 @@
 1. Craete a Django model for People, Address, Doctor, Product and Bio within any of your app.
 use an appropriate database relationship and create a relationship for the following models:
 ##
+|--------|--------|
 |People|Address|
 |People|Doctor|
 |People|Bio|
