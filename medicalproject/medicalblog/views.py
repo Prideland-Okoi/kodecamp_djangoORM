@@ -1,10 +1,19 @@
 from django.shortcuts import render
 from django.http import HttpResponse, request
+<<<<<<< HEAD
 from .models import Post
 # Create your views here.
 
 def home_view(request):
     return render(request, 'index.html')
+=======
+from .forms import InputForm
+
+def home_view(request):
+    context={}
+    context['form']=InputForm()
+    return render(request, 'home.html', context)
+>>>>>>> b4fa796 (task solved)
 
 def about_view(request):
     return render(request, 'about.html')
