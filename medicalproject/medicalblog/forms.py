@@ -1,5 +1,6 @@
 from django import forms
+from .models import Post
 
 class InputForm(forms.Form):
-    first_name = forms.CharField(max_length =200)
-    last_name = forms.CharField(max_length =200)
+    model = Post
+    fields = ['People', 'Address', 'Doctor', 'Product', 'Bio']

@@ -1,14 +1,13 @@
 from django.db import models
 
 # Create your models here.
-<<<<<<< HEAD
 class Post(models.Model):
     People=models.CharField(max_length=255)
     Doctor=models.CharField(max_length=255)
     Bio=models.CharField(max_length=255)
     Address=models.CharField(max_length=255)
     Product=models.CharField(max_length=255)
-=======
+
 
 class People(models.Model):
     user_name  = models.CharField(max_length = 1500)
@@ -55,4 +54,4 @@ class Bio(models.Model):
 
     def __str__(self):
         return self.full_name
->>>>>>> b4fa796 (task solved)
+

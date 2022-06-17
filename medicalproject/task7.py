@@ -26,4 +26,4 @@ new_price.product_price
 # V. Change a product price
 
 new_price.product_price = 1900
-new_price.save()I
+new_price.save()
